@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": 19.99,
+    "features": [
+      "Access to basic features",
+      "Limited support",
+      "Single user access",
+      "5 GB storage"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": 49.99,
+    "features": [
+      "Access to all basic and standard features",
+      "Priority support",
+      "Up to 5 users",
+      "50 GB storage",
+      "Customizable themes"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pro",
+    "price": 99.99,
+    "features": [
+      "Access to all features",
+      "24/7 dedicated support",
+      "Unlimited users",
+      "500 GB storage",
+      "Advanced analytics",
+      "Custom integrations"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Enterprise",
+    "price": 199.99,
+    "features": [
+      "Access to all features and custom solutions",
+      "Dedicated account manager",
+      "Unlimited users and storage",
+      "Custom security and compliance",
+      "Priority onboarding",
+      "Advanced reporting and analytics"
+    ]
+  }
+]
