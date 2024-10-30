@@ -9,14 +9,15 @@ const PriceOptions = () => {
       .then((res) => res.json())
       .then((data) => setPriceOptions(data));
   }, []);
-  console.log(priceOptions);
 
   return (
-    <div>
+    <div className="max-w-7xl mx-auto my-6">
       <h1>Best Price in This Twon</h1>
-      {priceOptions.map((option) => (
-        <PriceOption key={option.id} option={option}></PriceOption>
-      ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
+        {priceOptions.map((option) => (
+          <PriceOption key={option.id} option={option}></PriceOption>
+        ))}
+      </div>
     </div>
   );
 };
